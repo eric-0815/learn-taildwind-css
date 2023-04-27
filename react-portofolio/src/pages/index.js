@@ -10,13 +10,13 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
+      <main className='bg-white px-10'>
         <section className='min-h-screen'>
-          <nav className='py-10'>
-            <h1>developedbyed</h1>
-            <ul>
+          <nav className='py-10 mb-12 flex justify-between'>
+            <h1 className='text-xl'>developedbyed</h1>
+            <ul className='flex items-center'>
               <li>
-                <BsFillMoonStarsFill />
+                <BsFillMoonStarsFill className='cursor-pointer text-2xl' />
               </li>
               <li>
                 <a href='#'>Resume</a>
